@@ -1,0 +1,17 @@
+uuid: 506d88f6-4952-4ad0-88f1-c1995b3cfa09
+langcode: en
+status: true
+dependencies:
+  module:
+    - advancedqueue
+title: 'Process all advanced queues'
+id: advancedqueue_cron
+weight: 0
+module: advancedqueue
+callback: advancedqueue_cron
+scheduler:
+  id: simple
+launcher:
+  id: serial
+logger:
+  id: database

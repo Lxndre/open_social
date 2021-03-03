@@ -1,0 +1,9 @@
+name: Social Cron & Queue
+type: module
+description: Social cron and queue tasks ehnacements.
+core_version_requirement: ^8.8 || ^9
+package: Social
+dependencies:
+  - drupal:ultimate_cron
+  - drupal:advancedqueue
+  - social:activity_creator
